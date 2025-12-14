@@ -76,6 +76,10 @@ h1 {
   }
 }
 
+.hero_image {
+  transition:  .2s ease-in-out
+}
+
 .section__intro {
   position: relative;
   background-image: url("./images/bg_image.png");
