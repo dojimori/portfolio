@@ -42,8 +42,10 @@ body {
   /* font-family: 'Courier New', Courier, monospace; */
   padding: none;
   margin: 0;
-  font-family: "Trash_Hand";
+  /* font-family: "Trash_Hand"; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 4px;
+  font-size: 14px;
   box-sizing: border-box;
 }
 
@@ -141,7 +143,7 @@ a:hover {
   color: var(--red);
   /* color: #ffffcc; */
   font-weight: bold;
-  font-family: "Courier", Courier, monospace;
+  /* font-family: "Courier", Courier, monospace; */
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 .project_title {
@@ -154,4 +156,13 @@ a:hover {
   color: #ffffcc;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
