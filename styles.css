@@ -126,6 +126,21 @@ img:hover {
   color: var(--orange);
 }
 
+/* ================= TOOLS ================= */
+.tools {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.tools img {
+  width: 50px;
+  height: auto;
+}
+
 /* ================= BOX ================= */
 
 .box {
