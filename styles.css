@@ -157,7 +157,7 @@ a:hover {
 
 .school_name {
   color: #ffffcc;
-  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Courier New", Courier, monospace; */
   font-weight: bold;
 }
 
