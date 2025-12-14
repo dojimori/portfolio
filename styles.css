@@ -32,7 +32,7 @@
 }
 
 .emphasize-sm {
-  font-family: "Monster", sans-serif;
+  /* font-family: "Monster", sans-serif; */
   font-size: 1.5rem;
 }
 
@@ -43,7 +43,7 @@ body {
   padding: none;
   margin: 0;
   /* font-family: "Trash_Hand"; */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   letter-spacing: 4px;
   font-size: 14px;
   box-sizing: border-box;
@@ -129,10 +129,11 @@ h1 {
 }
 
 img:hover {
-  scale: 1.1;
+  scale: 1.2;
 }
 a {
   color: var(--orange);
+  text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
@@ -147,9 +148,11 @@ a:hover {
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 .project_title {
-  color: #ffffcc;
-  font-family: "Courier New", Courier, monospace;
+  /* color: #f8f86f; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Courier New", Courier, monospace; */
   font-weight: bold;
+  font-size: 16px;
 }
 
 .school_name {
@@ -157,6 +160,17 @@ a:hover {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
 }
+
+ul {
+  list-style: none;
+}
+
+
+li img {
+  width: 50px;
+  transition: .2s ease-in-out;
+}
+
 
 .box {
     background: rgba(255, 255, 255, 0.05);
