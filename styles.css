@@ -129,7 +129,7 @@ h1 {
 }
 
 img:hover {
-  scale: 1.2;
+  scale: 1.1;
 }
 a {
   color: var(--orange);
