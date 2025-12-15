@@ -48,7 +48,9 @@ body {
   font-size: 1.5rem;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   word-break: break-word;
 }
 
@@ -79,6 +81,14 @@ img:hover {
 .hero__image {
   transition: 0.2s ease-in-out;
   border-radius: 1.2em;
+}
+
+.github_contri {
+  width: 768px;
+}
+
+.github_contri:hover {
+  scale: none;
 }
 
 /* ================= HERO ================= */
@@ -114,7 +124,7 @@ img:hover {
   pointer-events: none;
 }
 
-.section__intro > * {
+.section__intro>* {
   position: relative;
   z-index: 2;
 }
@@ -129,7 +139,7 @@ img:hover {
 /* ================= TOOLS ================= */
 .tools {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); 
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   justify-items: center;
   align-items: center;
