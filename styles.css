@@ -210,13 +210,15 @@ li img {
 
 /* 📱 Tablets & below */
 @media (max-width: 768px) {
-  .hero-container {
+  .hero__container {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    justify-content: center;
+
   }
 
-  .hero-container p {
+  .hero__container p {
     text-align: left;
   }
 
@@ -239,7 +241,7 @@ li img {
     font-size: 13px;
   }
 
-  .hero-container {
+  .hero__container {
     padding: 1rem;
     gap: 1.5rem;
   }
